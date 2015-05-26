@@ -1,5 +1,5 @@
 # HTTP-2-Testing
-HTTP/2 testing tools and templates.
+This repository contains all necessary for deploy HTTP/2 testing server or clients. The "clients" directory contains the scripts for download and install clients with HTTP 2 support easily. The "tests" folder contains some test templates and bash scripts for test automatization. You can get more info in to the README.md file located inside each folder.
 
 
 ### Version
@@ -31,6 +31,7 @@ This repository is organized under directories according with the content:
 /
 |
 ├───clients/          # Testing clients installation.
+|       README.md:    # This file contains info about how to use the installation scripts.
 |
 └───tests/
     │   README.md:    # This file contains the description of the tests.
@@ -38,6 +39,7 @@ This repository is organized under directories according with the content:
     ├───templates/    # Contains the templates for the HTTP/2 Web server.
     │
     └───scripts/      # Bash scripts for test automatization.
+        │   README.md:    # This file contains info about how to configure and launch tests automatically.
         |
         ├───h2/       # HTTP/2 scripts (for https:// URLs).
         │
@@ -50,10 +52,9 @@ This repository is organized under directories according with the content:
 This repository contains a lot of tests for HTTP/2. The description about these tests are inside tests/README.md file. You can access to this file directly clicking [here](tests/README.md).
 
 
-### Todo's
+### Todo
 
  - Test Bash Scripts
- - Web Templates
  - Clients installers
 
 
