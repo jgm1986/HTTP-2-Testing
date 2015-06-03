@@ -30,20 +30,20 @@ This repository is organized under directories according with the content:
 ```
 /
 |
-├───clients/          # Testing clients installation.
-|       README.md:    # This file contains info about how to use the installation scripts.
+├───clients/        # Testing clients installation.
+|       README.md:  # This file contains info about how to use the installation scripts.
 |
-└───tests/
-    │   README.md:    # This file contains the description of the tests.
+├───tests/          # Contains the templates for the HTTP/2 Web server.
+|   │   README.md:  # This file contains the tests description and installation.
+|   │
+|   └───templates/  # Contains the templates for the HTTP/2 Web server.
+|   
+└───scripts/        # Bash scripts for test automation.
+    │   README.md:  # This file contains info about how to configure and launch tests automatically.
+    |
+    ├───h2/         # HTTP/2 scripts (for https:// URLs).
     │
-    ├───templates/    # Contains the templates for the HTTP/2 Web server.
-    │
-    └───scripts/      # Bash scripts for test automatization.
-        │   README.md:    # This file contains info about how to configure and launch tests automatically.
-        |
-        ├───h2/       # HTTP/2 scripts (for https:// URLs).
-        │
-        └───h2c/      # HTTP/2 Clear Text scripts (for http:// URLs).
+    └───h2c/        # HTTP/2 Clear Text scripts (for http:// URLs).
 ```
 
 
