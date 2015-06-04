@@ -1,4 +1,4 @@
-# HTTP-2-Testing Framework
+# HTTP/2 - Testing Framework
 
 ## Requirements
 All test pages use [Bootstrap](http://getbootstrap.com/) Framework for its design. On the other hand, your server must be [PHP 5](http://php.net/) support enabled. 
