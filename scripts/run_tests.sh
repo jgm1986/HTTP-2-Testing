@@ -14,6 +14,9 @@ fi
 # Load the Tests description file
 source test.list
 
+# Check if the "results" directory exists. If not, create a new directory.
+mkdir -p results
+
 # Launch each test
 TOTALTESTS=${#TestFilename[@]}-1
 for (( i=0; i<${#TestFilename[@]}; i++ ))
