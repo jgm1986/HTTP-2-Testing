@@ -1,6 +1,7 @@
 # HTTP/2 - Testing Framework Script
 
 ## Requirements
+
 This script use [NGHTTP2](https://nghttp2.org/) client for make the HTTP/2 tests. If this client is not present on your system, you can use the installation script from this repository under "clients" directory.
 
 
@@ -20,6 +21,7 @@ The results of the tests, will be saved under "results" directory. The name of t
 
 
 ## Config file
+
 You have to customize the test script configuration file using a text editor before start. For example:
 
 ```sh
@@ -30,6 +32,7 @@ Each field on this configuration file is described inside the file.
 
 
 ## Test list file
+
 All tests to be executed by this script, must be defined inside "test.list" file. You can edit using this command:
 
 ```sh

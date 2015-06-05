@@ -1,14 +1,17 @@
 # HTTP/2 - Testing Framework
 
 ## Requirements
+
 All test pages use [Bootstrap](http://getbootstrap.com/) Framework for its design. On the other hand, your server must be [PHP 5](http://php.net/) support enabled. 
 
 
 ## Installation process
+
 You can use all these test pages on your own server. Please use the following steps:
 
 1. Copy the "test" directory on the main directory of your Website.
 2. Give the right permissions to the follow directory:
+
 ```
 /
 |
@@ -22,6 +25,7 @@ Now you can use the test pages on your own server.
 
 
 ## Index Templates
+
 - **Test Page 01:** Basic HTML text file.
 - **Test Page 02:** JPG image file.
 - **Test Page 03:** Basic HTML and small image.
