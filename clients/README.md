@@ -1,6 +1,6 @@
 # HTTP-2 Clients
 
-This folder contains all necesarry for install HTTP/2 clients under Ubuntu 14.04.x LTS (64bits).
+This folder contains all necessary for install HTTP/2 clients under Ubuntu 14.04.x LTS (64bits).
 
 ## Index of clients
 The installation scripts are available for these clients:
