@@ -13,6 +13,12 @@ Makefile.in
 /missing
 /stamp-h1
 
+# Download packages directory
+/clients/packages
+
+# Test results directory
+/scripts/results
+
 # Created by https://www.gitignore.io
 
 ### Linux ###

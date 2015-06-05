@@ -44,7 +44,7 @@ for (( i=0; i<${#TestFilename[@]}; i++ ))
         # Test Command Execution and getting the last output line
         TEST_LAST_LINE=$(eval $FULL_COMMAND | tail -n 1)
 	echo "[ OK ]"
-	echo "[ DEBUG ] $TEST_LAST_LINE"
+	# echo "[ DEBUG ] $TEST_LAST_LINE"
 
 	# Getting the test total time
         responseTime=$(echo $TEST_LAST_LINE | awk '{print $2}')	# Get the total time. Example: +34.34s
@@ -52,7 +52,7 @@ for (( i=0; i<${#TestFilename[@]}; i++ ))
 
         # Calculating multiplier to parse responseTime to  microseconds (us)
         valueUnit=$(echo $responseTime | tail -c 3)
-        echo "[ DEBUG ] Text of the unit value: $valueUnit"
+        # echo "[ DEBUG ] Text of the unit value: $valueUnit"
         case $valueUnit in
             [0-9]*s) multiplier=1000000 ;;
             ms) multiplier=1000 ;;
@@ -61,12 +61,15 @@ for (( i=0; i<${#TestFilename[@]}; i++ ))
                        continue;;
         esac
         responseTime=$(echo $responseTime | grep -Po '(\d+.*\d+)')	# Deleting units from the value
-        echo "[ DEBUG ] Response time: $responseTime"
+        # echo "[ DEBUG ] Response time: $responseTime"
 	valueToSave=$(python -c "print $responseTime * $multiplier")	# Parsing time to microseconds
-        echo "[ DEBUG ] Value to save on result file: $valueToSave"
+        # echo "[ DEBUG ] Value to save on result file: $valueToSave"
 
         # Saving test time to results file
         echo "$valueToSave" >> "results/${TestFilename[i]}"
     done
+
+    # Insert blank lines to formatted user output
+    echo ""
 done
 exit 0
