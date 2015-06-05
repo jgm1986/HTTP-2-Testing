@@ -3,7 +3,7 @@ This repository contains all necessary for deploy HTTP/2 testing server or clien
 
 
 ## Version
-0.1.0
+0.2.0
 
 
 ## Installation
@@ -58,4 +58,4 @@ This repository contains a lot of tests for HTTP/2. The description about these 
 License
 ----
 
-MIT
+[MIT](http://opensource.org/licenses/mit-license.html)
