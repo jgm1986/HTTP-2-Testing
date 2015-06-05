@@ -5,7 +5,7 @@ This repository contains all necessary for deploy HTTP/2 testing server or clien
 
 ## Version
 
-0.2.1
+0.2.2
 
 
 ## Installation
@@ -33,17 +33,19 @@ This repository is organized under directories according with the content:
 /
 |
 ├───clients/        # Testing clients installation.
-|       README.md:  # This file contains info about how to use the installation scripts.
-|
-├───tests/          # Contains the templates for the HTTP/2 Web server.
-|   │   README.md:  # This file contains the tests description and installation.
-|   │
-|   └───templates/  # Contains the templates for the HTTP/2 Web server.
+|   |   README.md   # This file contains info about how to use the installation scripts.
+|   |
+|   └───packages/   # Contains the downloads for dependences and clients.
 |   
-└───scripts/        # Bash scripts for test automation.
-    │   README.md:  # This file contains info about how to configure and launch tests automatically.
-    |
-    └───results/    # The file result of each test will be save under this directory.
+├───scripts/        # Bash scripts for test automation.
+|   │   README.md   # This file contains info about how to configure and launch tests automatically.
+|   |
+|   └───results/    # The file result of each test will be save under this directory.
+|
+└───tests/          # Contains the templates for the HTTP/2 Web server.
+    │   README.md   # This file contains the tests description and installation.
+    │
+    └───templates/  # Contains the templates for the HTTP/2 Web server.
 ```
 
 
