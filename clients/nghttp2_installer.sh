@@ -73,7 +73,7 @@ cd nghttp2-1.0.1/
 autoreconf -i
 automake
 autoconf
-./configure
+./configure --enable-asio-lib
 make
 sudo make install
 cd ..
