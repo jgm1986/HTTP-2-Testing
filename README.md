@@ -1,9 +1,11 @@
 # HTTP/2 - Testing
+
 This repository contains all necessary for deploy HTTP/2 testing server or clients. The "clients" directory contains the scripts for download and install clients with HTTP 2 support easily. The "tests" folder contains some test templates and bash scripts for test automatization. You can get more info in to the README.md file located inside each folder.
 
 
 ## Version
-0.2.0
+
+0.2.1
 
 
 ## Installation
@@ -55,7 +57,6 @@ This repository contains a lot of tests for HTTP/2. The description about these 
  - Clients installers
 
 
-License
-----
+## License
 
 [MIT](http://opensource.org/licenses/mit-license.html)
