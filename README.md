@@ -5,7 +5,7 @@ This repository contains all necessary for deploy HTTP/2 testing server or clien
 
 ## Version
 
-0.2.2
+0.3.0
 
 
 ## Installation
@@ -42,10 +42,12 @@ This repository is organized under directories according with the content:
 |   |
 |   └───results/    # The file result of each test will be save under this directory.
 |
-└───tests/          # Contains the templates for the HTTP/2 Web server.
-    │   README.md   # This file contains the tests description and installation.
-    │
-    └───templates/  # Contains the templates for the HTTP/2 Web server.
+├───tests/          # Contains the templates for the HTTP/2 Web server.
+|   │   README.md   # This file contains the tests description and installation.
+|   │
+|   └───templates/  # Contains the templates for the HTTP/2 Web server.
+|
+└───tutorials/      # Basic tutorials about how to use testing tools.
 ```
 
 
