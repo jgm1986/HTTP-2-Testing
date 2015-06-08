@@ -56,11 +56,6 @@ This repository is organized under directories according with the content:
 This repository contains a lot of tests for HTTP/2. The description about these tests are inside tests/README.md file. You can access to this file directly clicking [here](tests/README.md).
 
 
-## Todo
-
- - Clients installers
-
-
 ## License
 
 [MIT](http://opensource.org/licenses/mit-license.html)

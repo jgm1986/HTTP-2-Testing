@@ -1,4 +1,4 @@
-# HTTP/2 Client
+# HTTP/2 Client: *NGHTTP2*
 
 ## How to install?
 
