@@ -5,8 +5,8 @@ echo "***************************************************"
 echo "* Calculating data files                          *"
 echo "***************************************************"
 python calculator.py
-cp *.mdat mean/
-rm *.mdat
+cp data/*.mdat mean/
+rm data/*.mdat
 FILES_TO_PLOT=$(find mean/ -type f)
 echo "Done!"
 
