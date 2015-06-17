@@ -18,10 +18,10 @@ You must follow the following steps:
 
 ### Installation script:
 
-This tool is used to make the basic directory structure for the statistics tools. Run it only if it's the first time that you are using this tool:
+This tool is used to make the basic directory structure for the statistics tools. Run it only if it's the first time that you are using this tool.
 
 ```sh
-$ python install.sh
+$ ./install.sh
 ```
 
 ### Cumulative mean calculator:
