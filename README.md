@@ -5,7 +5,7 @@ This repository contains all necessary for deploy HTTP/2 testing server or clien
 
 ## Version
 
-0.3.0
+0.4.0
 
 
 ## Installation
@@ -31,6 +31,13 @@ This repository is organized under directories according with the content:
 
 ```
 /
+|
+├───analysis/       # Scripts to calculate statistical parameters with the tests results.
+|   │   README.md   # This file contains info about how to use these tools.
+|   |
+|   ├───data/    	# Test results output files.
+|   |
+|   └───mean/    	# Files with cumulative mean for each test samples.
 |
 ├───clients/        # Testing clients installation.
 |   |   README.md   # This file contains info about how to use the installation scripts.
