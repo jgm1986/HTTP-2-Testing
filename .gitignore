@@ -19,6 +19,10 @@ Makefile.in
 # Test results directory
 /scripts/results
 
+# Statistics analysis directories
+/analysis/data
+/analysis/mean
+
 # Created by https://www.gitignore.io
 
 ### Linux ###
