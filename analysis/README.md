@@ -29,7 +29,7 @@ $ ./install.sh
 This script should be executed with the following command:
 
 ```sh
-$ python cumulat_mean.py
+$ ./cumulat_mean.sh
 ```
 
 The output files are stored under "mean" directory with its graph representation.
