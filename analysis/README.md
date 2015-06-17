@@ -1,4 +1,4 @@
-# HTTP/2 Test Reults Analysis
+# HTTP/2 - Tests Results Analysis
 
 This tools provides an easy way to get statistical parameters using test results files. By the moment these are the calculated parameters:
 
