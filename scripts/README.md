@@ -19,6 +19,12 @@ You have to define the amount number that each test will be executed as input pa
 
 The results of the tests, will be saved under "results" directory. The name of the output file, is defined on "test.list" file individually for each test.
 
+It is possible launch the tests on second plane and saving the output to an external file is using:
+
+```sh
+$ nohup ./run_tests.sh 1000 > testsOutput.log &
+```
+
 
 ## Config file
 
