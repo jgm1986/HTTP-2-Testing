@@ -58,6 +58,7 @@ for (( i=0; i<${#TestFilename[@]}; i++ ))
             ms) multiplier=1000 ;;
             us) multiplier=1 ;;
             *) echo "[ERROR] Not valid unit for total test time. Received: $valueUnit"
+            	       i--
                        continue;;
         esac
         responseTime=$(echo $responseTime | grep -Po '(\d+.*\d+)')	# Deleting units from the value

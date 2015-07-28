@@ -8,7 +8,7 @@
 #--------------------------------------------------------
 # TestName=(${TestName[@]} "/test/file_01.html")
 # TestFilename=(${TestFilename[@]} "h2c_7.2.1_$NUM_REPETI.dat")
-# TestParameter=(${TestParameter[@]} "-uvnas")
+# TestParameter=(${TestParameter[@]} "-uvnas -t 30")
 # TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 
 
@@ -17,14 +17,14 @@
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_01.html")
 TestFilename=(${TestFilename[@]} "h2c_Performance_01_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-uvnas")
+TestParameter=(${TestParameter[@]} "-uvnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "http://")
 #--------------------------------------------------------
 # 01 - H2: Performance Template 01
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_01.html")
 TestFilename=(${TestFilename[@]} "h2_Performance_01_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-vnas")
+TestParameter=(${TestParameter[@]} "-vnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 
 
@@ -33,14 +33,14 @@ TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_02.jpg")
 TestFilename=(${TestFilename[@]} "h2c_Performance_02_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-uvnas")
+TestParameter=(${TestParameter[@]} "-uvnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "http://")
 #--------------------------------------------------------
 # 03 - H2: Performance Template 02
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_02.jpg")
 TestFilename=(${TestFilename[@]} "h2_Performance_02_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-vnas")
+TestParameter=(${TestParameter[@]} "-vnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 
 
@@ -49,14 +49,14 @@ TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_03.html")
 TestFilename=(${TestFilename[@]} "h2c_Performance_03_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-uvnas")
+TestParameter=(${TestParameter[@]} "-uvnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "http://")
 #--------------------------------------------------------
 # 05 - H2: Performance Template 03
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_03.html")
 TestFilename=(${TestFilename[@]} "h2_Performance_03_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-vnas")
+TestParameter=(${TestParameter[@]} "-vnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 
 
@@ -65,14 +65,14 @@ TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_04.php")
 TestFilename=(${TestFilename[@]} "h2c_Performance_04_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-uvnas")
+TestParameter=(${TestParameter[@]} "-uvnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "http://")
 #--------------------------------------------------------
 # 07 - H2: Performance Template 04
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_04.php")
 TestFilename=(${TestFilename[@]} "h2_Performance_04_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-vnas")
+TestParameter=(${TestParameter[@]} "-vnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 
 
@@ -81,14 +81,14 @@ TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_05.txt")
 TestFilename=(${TestFilename[@]} "h2c_Performance_05_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-uvnas")
+TestParameter=(${TestParameter[@]} "-uvnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "http://")
 #--------------------------------------------------------
 # 09 - H2: Performance Template 05
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_05.txt")
 TestFilename=(${TestFilename[@]} "h2_Performance_05_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-vnas")
+TestParameter=(${TestParameter[@]} "-vnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 
 
@@ -97,14 +97,14 @@ TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_06.html")
 TestFilename=(${TestFilename[@]} "h2c_Performance_06_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-uvnas")
+TestParameter=(${TestParameter[@]} "-uvnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "http://")
 #--------------------------------------------------------
 # 11 - H2: Performance Template 06
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_06.html")
 TestFilename=(${TestFilename[@]} "h2_Performance_06_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-vnas")
+TestParameter=(${TestParameter[@]} "-vnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 
 
@@ -113,14 +113,14 @@ TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_10.html")
 TestFilename=(${TestFilename[@]} "h2c_Performance_10_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-uvnas")
+TestParameter=(${TestParameter[@]} "-uvnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "http://")
 #--------------------------------------------------------
 # 13 - H2: Performance Template 10
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_10.html")
 TestFilename=(${TestFilename[@]} "h2_Performance_10_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-vnas")
+TestParameter=(${TestParameter[@]} "-vnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 
 
@@ -129,12 +129,12 @@ TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_11.html")
 TestFilename=(${TestFilename[@]} "h2c_Performance_11_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-uvnas")
+TestParameter=(${TestParameter[@]} "-uvnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "http://")
 #--------------------------------------------------------
 # 15 - H2: Performance Template 11
 #--------------------------------------------------------
 TestName=(${TestName[@]} "/test/test_11.html")
 TestFilename=(${TestFilename[@]} "h2_Performance_11_$NUM_REPETI.dat")
-TestParameter=(${TestParameter[@]} "-vnas")
+TestParameter=(${TestParameter[@]} "-vnas -t 30")
 TestUrlPreamb=(${TestUrlPreamb[@]} "https://")
