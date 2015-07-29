@@ -5,7 +5,7 @@ This repository contains all necessary for deploy HTTP/2 testing server or clien
 
 ## Version
 
-0.4.2
+0.4.3
 
 
 ## Installation

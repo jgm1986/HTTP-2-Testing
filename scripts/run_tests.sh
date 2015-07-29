@@ -35,7 +35,7 @@ for (( i=0; i<${#TestFilename[@]}; i++ ))
         continue
     fi
     # Creating the command to be execcuted
-    FULL_COMMAND="$NGHTTP2 ${TestParameter[$i]} ${TestUrlPreamb[$i]}$URL:$PORT${TestName[$i]}"
+    FULL_COMMAND="$NGHTTP2 ${TestParameter[$i]} ${TestTimeOut[$i]} ${TestUrlPreamb[$i]}$URL:$PORT${TestName[$i]}"
     echo "[ COMMAND ] $FULL_COMMAND"
 
     for(( j= 0; j<$NUM_REPETI; j++ ))
@@ -58,7 +58,7 @@ for (( i=0; i<${#TestFilename[@]}; i++ ))
             ms) multiplier=1000 ;;
             us) multiplier=1 ;;
             *) echo "[ERROR] Not valid unit for total test time. Received: $valueUnit"
-            	       i--
+            	       j=$((j-1))
                        continue;;
         esac
         responseTime=$(echo $responseTime | grep -Po '(\d+.*\d+)')	# Deleting units from the value
