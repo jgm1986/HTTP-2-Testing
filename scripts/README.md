@@ -64,3 +64,9 @@ TestUrlPreamb=(${TestUrlPreamb[@]} "http://")
 The user only have to modify the values between double quotes for defined or customize a test.
 
 **WARNING:** The rest of the code inside test.list file must be the same without changes.
+
+## Useful Commands
+
+This list shows some useful commands for this toolkit.
+
+- Show the errors produced during the tests: **cat file.log | grep ERROR**
