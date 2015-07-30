@@ -50,6 +50,7 @@ The only way for defined a test is using four arrays with the same index. These 
 - **TestName:** Contains the route to the template file from the remote test server.
 - **TestFilename:** Set the name for the output where the test results will be saved.
 - **TestParameter:** Define the input options for NGHTTP client. For get more info about all possibilities, please click [here](https://nghttp2.org/documentation/nghttp.1.html#options).
+- **TestTimeOut:** This parameter is used to define the maximum time to finish the current test before timeout. NGHTTP2 Client generate an error if this value is exceed.
 - **TestUrlPreamb:** Define if the test use *http://* or *https://* with URL of the test server.
 
 This is an example of test definition:
