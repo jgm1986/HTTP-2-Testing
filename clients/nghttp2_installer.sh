@@ -23,9 +23,9 @@ echo "* OPENSSL: 1.0.2                                       *"
 echo "********************************************************"
 sudo apt-get install 	perl			\
 			-y
-wget https://www.openssl.org/source/openssl-1.0.2a.tar.gz
-tar xfv openssl-1.0.2a.tar.gz
-cd openssl-1.0.2a
+wget https://www.openssl.org/source/openssl-1.0.2d.tar.gz
+tar xfv openssl-1.0.2d.tar.gz
+cd openssl-1.0.2d
 ./config
 make depend
 make
