@@ -55,7 +55,7 @@ sudo make install
 cd ..
 
 echo "********************************************************"
-echo "* NGHTTP2: 1.4.0                                       *"
+echo "* NGHTTP2: 1.5.0                                       *"
 echo "********************************************************"
 sudo apt-get install 	gcc			\
 			sphinx3			\
@@ -68,9 +68,9 @@ sudo apt-get install 	gcc			\
 			python3.4-dev		\
 			python-setuptools	\
 			-y
-wget https://github.com/tatsuhiro-t/nghttp2/releases/download/v1.4.0/nghttp2-1.4.0.tar.gz
-tar xfv nghttp2-1.4.0.tar.gz
-cd nghttp2-1.4.0/
+wget https://github.com/tatsuhiro-t/nghttp2/releases/download/v1.5.0/nghttp2-1.5.0.tar.gz
+tar xfv nghttp2-1.5.0.tar.gz
+cd nghttp2-1.5.0/
 autoreconf -i
 automake
 autoconf
