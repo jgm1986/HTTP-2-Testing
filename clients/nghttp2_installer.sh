@@ -74,7 +74,8 @@ cd nghttp2-1.5.0/
 autoreconf -i
 automake
 autoconf
-./configure --enable-asio-lib
+#./configure --enable-asio-lib
+./configure
 make
 sudo make install
 sudo cp ./lib/.libs/libnghttp2.so.14 /lib
