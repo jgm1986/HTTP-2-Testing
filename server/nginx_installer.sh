@@ -9,6 +9,6 @@ echo "******************************************************"
 wget http://nginx.org/download/nginx-1.9.5.tar.gz
 tar xfv nginx-1.9.5.tar.gz
 cd nginx-1.9.5/
-./configure --without-http_rewrite_module --with-http_ssl_module
+./configure --without-http_rewrite_module --with-http_ssl_module --with-http_v2_module
 make
 sudo make install
