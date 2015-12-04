@@ -19,13 +19,13 @@ sudo apt-get install 	git 			\
 			-y
 
 echo "********************************************************"
-echo "* OPENSSL: 1.0.2                                       *"
+echo "* OPENSSL: 1.0.2e                                      *"
 echo "********************************************************"
 sudo apt-get install 	perl			\
 			-y
-wget https://www.openssl.org/source/openssl-1.0.2d.tar.gz
-tar xfv openssl-1.0.2d.tar.gz
-cd openssl-1.0.2d
+wget https://www.openssl.org/source/openssl-1.0.2e.tar.gz
+tar xfv openssl-1.0.2e.tar.gz
+cd openssl-1.0.2e
 ./config
 make depend
 make
