@@ -19,13 +19,13 @@ sudo apt-get install 	git 			\
 			-y
 
 echo "********************************************************"
-echo "* OPENSSL: 1.0.2e                                      *"
+echo "* OPENSSL: 1.0.2g                                      *"
 echo "********************************************************"
 sudo apt-get install 	perl			\
 			-y
-wget https://www.openssl.org/source/openssl-1.0.2e.tar.gz
-tar xfv openssl-1.0.2e.tar.gz
-cd openssl-1.0.2e
+wget https://www.openssl.org/source/openssl-1.0.2g.tar.gz
+tar xfv openssl-1.0.2g.tar.gz
+cd openssl-1.0.2g
 ./config
 make depend
 make
@@ -55,22 +55,36 @@ sudo make install
 cd ..
 
 echo "********************************************************"
-echo "* NGHTTP2: 1.5.0                                       *"
+echo "* NGHTTP2: 1.9.2                                       *"
 echo "********************************************************"
 sudo apt-get install 	gcc			\
 			sphinx3			\
-			libev-dev		\
 			libjansson-dev		\
-			libjemalloc-dev		\
 			libboost-dev		\
 			libboost-thread-dev	\
-			cython			\
-			python3.4-dev		\
+			g++			\
+			make 			\
+			binutils 		\
+			autoconf 		\
+			automake		\
+			autotools-dev 		\
+			libtool 		\
+			pkg-config 		\
+			zlib1g-dev		\
+			libcunit1-dev 		\
+			libssl-dev 		\
+			libxml2-dev 		\
+			libev-dev 		\
+			libevent-dev 		\
+			libjansson-dev 		\
+			libjemalloc-dev 	\
+			cython 			\
+			python3-dev 		\
 			python-setuptools	\
 			-y
-wget https://github.com/tatsuhiro-t/nghttp2/releases/download/v1.5.0/nghttp2-1.5.0.tar.gz
-tar xfv nghttp2-1.5.0.tar.gz
-cd nghttp2-1.5.0/
+wget https://github.com/nghttp2/nghttp2/releases/download/v1.9.2/nghttp2-1.9.2.tar.gz
+tar xfv nghttp2-1.9.2.tar.gz
+cd nghttp2-1.9.2/
 autoreconf -i
 automake
 autoconf
