@@ -22,7 +22,7 @@ function javaScriptMessage(){
 }
 
 function mainJavascript(){
-	document.write(javaScriptMessage())
+	document.write(javaScriptMessage());
 	document.write('<ul class="listElements">');
 	document.write('<li>Current date (dd/mm/yyyy): ' + returnDate());
 	document.write('<br>');	
